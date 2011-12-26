@@ -1,11 +1,11 @@
-# revision 24846
+# revision 24930
 # category Package
 # catalog-ctan /macros/latex/contrib/ejpecp
-# catalog-date 2011-12-14 17:10:55 +0100
+# catalog-date 2011-12-23 16:16:26 +0100
 # catalog-license lppl1.2
-# catalog-version 0.577
+# catalog-version 0.5772
 Name:		texlive-ejpecp
-Version:	0.577
+Version:	0.5772
 Release:	1
 Summary:	Class for EJP and ECP
 Group:		Publishing
@@ -45,6 +45,7 @@ Probability (EJP) and Electronic Communications in Probability
 %files
 %{_texmfdistdir}/tex/latex/ejpecp/ejpecp.cls
 %doc %{_texmfdistdir}/doc/latex/ejpecp/LPPL
+%doc %{_texmfdistdir}/doc/latex/ejpecp/MD5SUM
 %doc %{_texmfdistdir}/doc/latex/ejpecp/README
 %doc %{_texmfdistdir}/doc/latex/ejpecp/ejpecp.pdf
 %doc %{_texmfdistdir}/doc/latex/ejpecp/mgetmref.py
