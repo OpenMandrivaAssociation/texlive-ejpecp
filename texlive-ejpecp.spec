@@ -25,16 +25,8 @@ mathematical research periodicals Electronic Journal of
 Probability (EJP) and Electronic Communications in Probability
 (ECP).
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -54,7 +46,6 @@ Probability (EJP) and Electronic Communications in Probability
 #- source
 %doc %{_texmfdistdir}/source/latex/ejpecp/ejpecp.dtx
 %doc %{_texmfdistdir}/source/latex/ejpecp/ejpecp.ins
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,5 +56,3 @@ Probability (EJP) and Electronic Communications in Probability
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
