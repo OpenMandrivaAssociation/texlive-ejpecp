@@ -55,3 +55,27 @@ Probability (EJP) and Electronic Communications in Probability
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5772-3
++ Revision: 762619
+- Update to latest upstream package
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5772-2
++ Revision: 751347
+- Rebuild to reduce used resources
+
+* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.5772-1
++ Revision: 745209
+- texlive-ejpecp
+
+* Sat Dec 17 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.577-1
++ Revision: 743251
+- texlive-ejpecp
+
+* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.57-1
++ Revision: 739612
+- texlive-ejpecp
+- texlive-ejpecp
+
