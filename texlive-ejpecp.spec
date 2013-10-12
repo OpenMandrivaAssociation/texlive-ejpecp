@@ -1,12 +1,12 @@
-# revision 25092
+# revision 28535
 # category Package
 # catalog-ctan /macros/latex/contrib/ejpecp
-# catalog-date 2012-01-10 16:50:30 +0100
+# catalog-date 2012-12-13 10:43:21 +0100
 # catalog-license lppl1.2
-# catalog-version 0.5772
+# catalog-version 1.0
 Name:		texlive-ejpecp
-Version:	0.5772
-Release:	3
+Version:	1.0
+Release:	1
 Summary:	Class for EJP and ECP
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ejpecp
@@ -38,7 +38,6 @@ Probability (EJP) and Electronic Communications in Probability
 %{_texmfdistdir}/tex/latex/ejpecp/ejpecp.cls
 %doc %{_texmfdistdir}/doc/latex/ejpecp/LPPL
 %doc %{_texmfdistdir}/doc/latex/ejpecp/README
-%doc %{_texmfdistdir}/doc/latex/ejpecp/ejpecp.pdf
 %doc %{_texmfdistdir}/doc/latex/ejpecp/mgetmref.py
 %doc %{_texmfdistdir}/doc/latex/ejpecp/sample.pdf
 %doc %{_texmfdistdir}/doc/latex/ejpecp/sample.tex
@@ -55,27 +54,3 @@ Probability (EJP) and Electronic Communications in Probability
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5772-3
-+ Revision: 762619
-- Update to latest upstream package
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.5772-2
-+ Revision: 751347
-- Rebuild to reduce used resources
-
-* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.5772-1
-+ Revision: 745209
-- texlive-ejpecp
-
-* Sat Dec 17 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.577-1
-+ Revision: 743251
-- texlive-ejpecp
-
-* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.57-1
-+ Revision: 739612
-- texlive-ejpecp
-- texlive-ejpecp
-
