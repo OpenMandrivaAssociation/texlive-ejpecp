@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-ejpecp
 Version:	1.0
-Release:	5
+Release:	6
 Summary:	Class for EJP and ECP
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ejpecp
