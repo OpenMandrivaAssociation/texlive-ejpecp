@@ -3,7 +3,7 @@ Version:	60950
 Release:	2
 Summary:	Class for EJP and ECP
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ejpecp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ejpecp
 License:	LPPL1.2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ejpecp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ejpecp.doc.r%{version}.tar.xz
